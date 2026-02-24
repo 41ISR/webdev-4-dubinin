@@ -1,0 +1,47 @@
+[
+  {
+    "id": "1",
+    "name": "плохохорошо",
+    "artists": "iskrit, ioneweb",
+    "album": "плохохорошо",
+    "duration_ms": 179000,
+    "popularity": 30,
+    "album_art": "https://i.scdn.co/image/ab67616d000048516f51139efce47d2e01da8052"
+  },
+  {
+    "id": "2",
+    "name": "Blinding Lights",
+    "artists": "The Weeknd",
+    "album": "After Hours",
+    "duration_ms": 200040,
+    "popularity": 95,
+    "album_art": "https://i.scdn.co/image/ab67616d00004851c5649add07ed3720be9d5526"
+  },
+  {
+    "id": "3",
+    "name": "Shape of You",
+    "artists": "Ed Sheeran",
+    "album": "÷ (Divide)",
+    "duration_ms": 233713,
+    "popularity": 92,
+    "album_art": "https://i.scdn.co/image/ab67616d00004851ba5db46f4b838ef6027e6f96"
+  },
+  {
+    "id": "4",
+    "name": "Levitating",
+    "artists": "Dua Lipa",
+    "album": "Future Nostalgia",
+    "duration_ms": 203064,
+    "popularity": 88,
+    "album_art": "https://i.scdn.co/image/ab67616d00004851ef7e0b1a5c9c0f3d90c8f3e7"
+  },
+  {
+    "id": "5",
+    "name": "Starboy",
+    "artists": "The Weeknd, Daft Punk",
+    "album": "Starboy",
+    "duration_ms": 230453,
+    "popularity": 85,
+    "album_art": "https://i.scdn.co/image/ab67616d000048514718e2b124f79258be7bc452"
+  }
+]
