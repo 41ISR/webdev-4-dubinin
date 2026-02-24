@@ -1,0 +1,104 @@
+.track-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+  gap: 16px;
+}
+
+.track-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.track-number {
+  min-width: 30px;
+  text-align: center;
+  color: #b3b3b3;
+  font-size: 16px;
+}
+
+.track-main {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex: 1;
+  min-width: 0;
+}
+
+.album-art {
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.track-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.track-name {
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.track-artists {
+  font-size: 14px;
+  color: #b3b3b3;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.track-album {
+  font-size: 13px;
+  color: #888;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.track-meta {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-left: auto;
+}
+
+.duration {
+  color: #b3b3b3;
+  font-size: 14px;
+  min-width: 45px;
+  text-align: right;
+}
+
+.popularity {
+  color: #1db954;
+  font-size: 14px;
+  min-width: 50px;
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .track-item {
+    flex-wrap: wrap;
+  }
+  
+  .track-meta {
+    width: 100%;
+    justify-content: flex-end;
+    margin-left: 0;
+    padding-left: 46px;
+  }
+  
+  .track-album {
+    display: none;
+  }
+}
